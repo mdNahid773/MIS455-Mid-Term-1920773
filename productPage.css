@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+header {
+    padding: 30px 0px 30px 0px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 1096px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon-1 {
+    width: 30px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: 140px;
+}
+
+.navigation li {
+    margin-right: 45px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: black;
+    background-color:transparent;
+
+}
+
+.navigation ul a:hover {
+    text-decoration: underline;
+}
+.navigation-2 {
+   text-align: center;
+   height: 60px;
+   background-color: rgb(37, 37, 37);
+}
+
+ul.nav-2 li a {
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+ul.nav-2 a:hover {
+   text-decoration: underline; 
+   color: rgb(216, 164, 87);
+}
+
+.content-title {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.item-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 50px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.image {
+    width: 193px;
+    height: 313px;
+    margin-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.item {
+    text-align: center;
+    height: 389px;
+    width: 193px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.book-title {
+    margin-bottom: 5px;
+}
+
+.book-author {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+}
+
+p {
+    background-color: transparent;
+}
+
+.footer-container {
+    width: auto;
+    background-color: rgb(38, 38, 38);
+    height: 400px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+.footer-content {
+    margin-right: 212px;
+    background-color: transparent;  
+}
+
+.footer-content ul li a img{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#footer-company {
+    margin-right: 112px;
+    background-color: transparent;
+}
+
+#footer-help {
+    margin-right: 112px;
+    background-color: transparent;
+}
+
+#footer-policy {
+    background-color: transparent;
+}
+
+.footer-nav {
+    background-color: transparent;
+}
+
+.footer-nav :hover {
+    color: rgb(216, 164, 87);
+    cursor: pointer;
+}
+
+h4 {
+    background-color: transparent;
+}
+
+#f-logo {
+    color: rgb(216, 164, 87);
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.socials {
+    background-color: transparent;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
