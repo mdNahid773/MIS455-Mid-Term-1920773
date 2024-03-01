@@ -60,3 +60,46 @@ ul.nav-2 a:hover {
    text-decoration: underline; 
    color: rgb(216, 164, 87);
 }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.layer-1 {
+    position:absolute;
+    z-index: 1;
+}
+
+.layer-2 {
+    position:absolute;
+    z-index: 2;
+    background-color: transparent;
+    margin-top: 140px;
+}
+
+.discount {
+    background-color: transparent;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    padding: 21px 30px 21px 30px;
+    background: white;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #262626;
+    color: white;
+    cursor: pointer;
+}
