@@ -103,3 +103,64 @@ button:hover {
     color: white;
     cursor: pointer;
 }
+
+.content-1 {
+    margin-top: 680px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.content-title {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.item-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 50px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.image {
+    width: 193px;
+    height: 313px;
+    margin-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.item {
+    text-align: center;
+    height: 389px;
+    width: 193px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.book-title {
+    margin-bottom: 5px;
+}
+
+.book-author {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+}
+
+p {
+    background-color: transparent;
+}
