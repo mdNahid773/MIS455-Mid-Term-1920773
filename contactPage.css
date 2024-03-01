@@ -60,3 +60,116 @@ ul.nav-2 a:hover {
    text-decoration: underline; 
    color: rgb(216, 164, 87);
 }
+
+.contact {
+    text-align: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 100px;
+    
+}
+
+.contact-details {
+    width: 800px;
+    background-color: transparent;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+p {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.contact-details p {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.footer-container {
+    width: auto;
+    background-color: rgb(38, 38, 38);
+    height: 400px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+.footer-content {
+    margin-right: 212px;
+    background-color: transparent;  
+}
+
+.footer-content ul li a img{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#footer-company {
+    margin-right: 112px;
+    background-color: transparent;
+}
+
+#footer-help {
+    margin-right: 112px;
+    background-color: transparent;
+}
+
+#footer-policy {
+    background-color: transparent;
+}
+
+.footer-nav {
+    background-color: transparent;
+}
+
+.footer-nav :hover {
+    color: rgb(216, 164, 87);
+    cursor: pointer;
+}
+
+h4 {
+    background-color: transparent;
+}
+
+#f-logo {
+    color: rgb(216, 164, 87);
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.socials {
+    background-color: transparent;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+}
