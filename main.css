@@ -128,7 +128,6 @@ h1 {
 .item-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    border-radius: 10px;
     margin-top: 50px;
     column-gap: 30px;
     row-gap: 30px;
@@ -138,15 +137,15 @@ h1 {
     width: 193px;
     height: 313px;
     margin-bottom: 5px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .item {
     text-align: center;
     height: 389px;
     width: 193px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 8px rgb(75, 75, 75);
     cursor: pointer;
 }
